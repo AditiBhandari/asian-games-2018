@@ -16,8 +16,9 @@
 		var totalLabel = yearLabel.append("p").attr("class", "chart2-total").text(nTotal + " medals");
 	}
 
-	var data82 = d3.json("data/chart2/data82.json");
-	createChart(data82, ".chart2-hist1", "chart2-group1", ".chart2-group1", "chart2-groupGold1", ".chart2-groupGold1", "chart2-groupSilver1", ".chart2-groupSilver1", "chart2-groupBronze1", ".chart2-groupBronze1", "1982", ".chart2-div1");
+	var chart2_data82 = d3.json("data/chart2/chart2_data82.json");
+	console.log(chart2_data82);
+	createChart(chart2_data82, ".chart2-hist1", "chart2-group1", ".chart2-group1", "chart2-groupGold1", ".chart2-groupGold1", "chart2-groupSilver1", ".chart2-groupSilver1", "chart2-groupBronze1", ".chart2-groupBronze1", "1982", ".chart2-div1");
 
 // CHART 2
 	var data86 = d3.json("data/chart2/data86.json");
