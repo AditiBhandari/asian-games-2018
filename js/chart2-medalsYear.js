@@ -1,11 +1,11 @@
 // CHART 1
-	var createChart = function(data, hist_class, group_name, group_class, group_g, group_g_class, group_s, group_s_class, group_b, group_b_class, year, year_label){
-		var nest = d3.nest().key(function(d){return d.medal}).entries(data);
+	var createChart = function(data_array, hist_class, group_name, group_class, group_g, group_g_class, group_s, group_s_class, group_b, group_b_class, year, year_label){
+		var nest = d3.nest().key(function(d){return d.medal}).entries(data_array);
 		var hist = d3.select(hist_class);
 		var group = hist.selectAll(group_class).data(nest).enter().append("div").attr("class", group_name);
-		var nGold = data.filter(function(d) {return d.medal === "Gold" }).length;
-		var nSilver = data.filter(function(d) { return d.medal === "Silver" }).length;
-		var nBronze = data.filter(function(d) { return d.medal === "Bronze" }).length;
+		var nGold = data_array.filter(function(d) {return d.medal === "Gold" }).length;
+		var nSilver = data_array.filter(function(d) { return d.medal === "Silver" }).length;
+		var nBronze = data_array.filter(function(d) { return d.medal === "Bronze" }).length;
 		var nTotal = nGold + nSilver + nBronze;
 		var groupType = d3.selectAll(group_class).attr("class", function(d){ var groupTypeClass; if (d.key == "Gold") { groupTypeClass = group_g; return groupTypeClass;} else if (d.key == "Silver") { groupTypeClass = group_s; return groupTypeClass; } else if (d.key == "Bronze") { groupTypeClass = group_b; return groupTypeClass; }});
 		d3.select(group_g_class).append("p").attr("class", "chart2-count").text(nGold);
