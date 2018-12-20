@@ -1,10 +1,10 @@
-var buildColumn = function(data, hist_number, group_number_div, group_number_name, groupGold, groupSilver, groupBronze, chart_div){
-	var nest = d3.nest().key(function(d){return d.medal}).entries(data);
+var buildColumn = function(dataX, hist_number, group_number_div, group_number_name, groupGold, groupSilver, groupBronze, chart_div){
+	var nest = d3.nest().key(function(d){return d.medal}).entries(dataX);
 	var hist = d3.select(hist_number);
 	var group = hist.selectAll(group_number_div).data(nest).enter().append("div").attr("class", group_number_name);
-	var nGold = data.filter(function(d) { return d.medal === "Gold" }).length;
-	var nSilver = data.filter(function(d) { return d.medal === "Silver" }).length;
-	var nBronze = data.filter(function(d) { return d.medal === "Bronze" }).length;
+	var nGold = dataX.filter(function(d) { return d.medal === "Gold" }).length;
+	var nSilver = dataX.filter(function(d) { return d.medal === "Silver" }).length;
+	var nBronze = dataX.filter(function(d) { return d.medal === "Bronze" }).length;
 	var nTotal = nGold + nSilver + nBronze;	
 	d3.select(groupGold).append("p").attr("class", "chart6-count").text(nGold);
 	d3.select(groupSilver).append("p").attr("class", "chart6-count").text(nSilver);
