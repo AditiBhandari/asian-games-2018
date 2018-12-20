@@ -81,9 +81,6 @@ var block = group.selectAll(".chart7-block")
 	// Scale the color based on the social media type
 	.style("background-color", function(d){ return scaleColor(d.key)});
 
-
-
-
 var count = group.append("p")
 	.text(function(d){ return (d.total)})
 	.attr("class", "chart7-count");

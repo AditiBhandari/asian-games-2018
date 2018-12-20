@@ -88,7 +88,3 @@ var label = group.append("p")
 // var count = group.append("p")
 // 	.text(function(d){ return d3.format("0.2s")(d.total)})
 // 	.attr("class", "count");
-
-
-
-

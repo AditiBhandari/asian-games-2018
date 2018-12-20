@@ -16,51 +16,41 @@
 		var totalLabel = yearLabel.append("p").attr("class", "chart2-total").text(nTotal + " medals");
 	}
 
-	d3.json("data/chart2/data82.json", function(data82){
-		createChart(data82, ".chart2-hist1", "chart2-group1", ".chart2-group1", "chart2-groupGold1", ".chart2-groupGold1", "chart2-groupSilver1", ".chart2-groupSilver1", "chart2-groupBronze1", ".chart2-groupBronze1", "1982", ".chart2-div1")
-	});
+	var data82 = d3.json("data/chart2/data82.json");
+	createChart(data82, ".chart2-hist1", "chart2-group1", ".chart2-group1", "chart2-groupGold1", ".chart2-groupGold1", "chart2-groupSilver1", ".chart2-groupSilver1", "chart2-groupBronze1", ".chart2-groupBronze1", "1982", ".chart2-div1");
 
 // CHART 2
-	d3.json("data/chart2/data86.json", function(data86){
-		createChart(data86, ".chart2-hist2", "chart2-group2", ".chart2-group2", "chart2-groupGold2", ".chart2-groupGold2", "chart2-groupSilver2", ".chart2-groupSilver2", "chart2-groupBronze2", ".chart2-groupBronze2", "1986", ".chart2-div2")
-	});
+	var data86 = d3.json("data/chart2/data86.json");
+	createChart(data86, ".chart2-hist2", "chart2-group2", ".chart2-group2", "chart2-groupGold2", ".chart2-groupGold2", "chart2-groupSilver2", ".chart2-groupSilver2", "chart2-groupBronze2", ".chart2-groupBronze2", "1986", ".chart2-div2");
 
 // CHART 3
-	d3.json("data/chart2/data90.json", function(data90){
-		createChart(data90, ".chart2-hist3", "chart2-group3", ".chart2-group3", "chart2-groupGold3", ".chart2-groupGold3", "chart2-groupSilver3", ".chart2-groupSilver3", "chart2-groupBronze3", ".chart2-groupBronze3", "1990", ".chart2-div3")
-	});
+	var data90 = d3.json("data/chart2/data90.json");
+	createChart(data90, ".chart2-hist3", "chart2-group3", ".chart2-group3", "chart2-groupGold3", ".chart2-groupGold3", "chart2-groupSilver3", ".chart2-groupSilver3", "chart2-groupBronze3", ".chart2-groupBronze3", "1990", ".chart2-div3");
 
 // CHART 4
-	d3.json("data/chart2/data94.json", function(data94){
-		createChart(data94, ".chart2-hist4", "chart2-group4", ".chart2-group4", "chart2-groupGold4", ".chart2-groupGold4", "chart2-groupSilver4", ".chart2-groupSilver4", "chart2-groupBronze4", ".chart2-groupBronze4", "1994", ".chart2-div4")
-	});
+	var data94 = d3.json("data/chart2/data94.json");
+	createChart(data94, ".chart2-hist4", "chart2-group4", ".chart2-group4", "chart2-groupGold4", ".chart2-groupGold4", "chart2-groupSilver4", ".chart2-groupSilver4", "chart2-groupBronze4", ".chart2-groupBronze4", "1994", ".chart2-div4");
 
 // CHART 5
-	d3.json("data/chart2/data98.json", function(data98){
-		var chart98 = createChart(data98, ".chart2-hist5", "chart2-group5", ".chart2-group5", "chart2-groupGold5", ".chart2-groupGold5", "chart2-groupSilver5", ".chart2-groupSilver5", "chart2-groupBronze5", ".chart2-groupBronze5", "1998", ".chart2-div5")
-	});
+	var data98 = d3.json("data/chart2/data98.json");
+	createChart(data98, ".chart2-hist5", "chart2-group5", ".chart2-group5", "chart2-groupGold5", ".chart2-groupGold5", "chart2-groupSilver5", ".chart2-groupSilver5", "chart2-groupBronze5", ".chart2-groupBronze5", "1998", ".chart2-div5");
 
 // CHART 6
-	d3.json("data/chart2/data02.json", function(data02){
-		createChart(data02, ".chart2-hist6", "chart2-group6", ".chart2-group6", "chart2-groupGold6", ".chart2-groupGold6", "chart2-groupSilver6", ".chart2-groupSilver6", "chart2-groupBronze6", ".chart2-groupBronze6", "2002", ".chart2-div6")
-	});
+	var data02 = d3.json("data/chart2/data02.json");
+	createChart(data02, ".chart2-hist6", "chart2-group6", ".chart2-group6", "chart2-groupGold6", ".chart2-groupGold6", "chart2-groupSilver6", ".chart2-groupSilver6", "chart2-groupBronze6", ".chart2-groupBronze6", "2002", ".chart2-div6");
 
 // CHART 7
-	d3.json("data/chart2/data06.json", function(data06){
-		createChart(data06, ".chart2-hist7", "chart2-group7", ".chart2-group7", "chart2-groupGold7", ".chart2-groupGold7", "chart2-groupSilver7", ".chart2-groupSilver7", "chart2-groupBronze7", ".chart2-groupBronze7", "2006", ".chart2-div7")
-	});
+	var data06 = d3.json("data/chart2/data06.json");
+	createChart(data06, ".chart2-hist7", "chart2-group7", ".chart2-group7", "chart2-groupGold7", ".chart2-groupGold7", "chart2-groupSilver7", ".chart2-groupSilver7", "chart2-groupBronze7", ".chart2-groupBronze7", "2006", ".chart2-div7");
 
 // CHART 8
-	d3.json("data/chart2/data10.json", function(data10){
-		createChart(data10, ".chart2-hist8", "chart2-group8", ".chart2-group8", "chart2-groupGold8", ".chart2-groupGold8", "chart2-groupSilver8", ".chart2-groupSilver8", "chart2-groupBronze8", ".chart2-groupBronze8", "2010", ".chart2-div8")
-	});
+	var data10 = d3.json("data/chart2/data10.json");
+	createChart(data10, ".chart2-hist8", "chart2-group8", ".chart2-group8", "chart2-groupGold8", ".chart2-groupGold8", "chart2-groupSilver8", ".chart2-groupSilver8", "chart2-groupBronze8", ".chart2-groupBronze8", "2010", ".chart2-div8");
 
 // CHART 9
-	d3.json("data/chart2/data14.json", function(data14){
-		createChart(data14, ".chart2-hist9", "chart2-group9", ".chart2-group9", "chart2-groupGold9", ".chart2-groupGold9", "chart2-groupSilver9", ".chart2-groupSilver9", "chart2-groupBronze9", ".chart2-groupBronze9", "2014", ".chart2-div9")
-	});
+	var data14 = d3.json("data/chart2/data14.json");
+	createChart(data14, ".chart2-hist9", "chart2-group9", ".chart2-group9", "chart2-groupGold9", ".chart2-groupGold9", "chart2-groupSilver9", ".chart2-groupSilver9", "chart2-groupBronze9", ".chart2-groupBronze9", "2014", ".chart2-div9");
 
 // CHART 10
-	d3.json("data/chart2/data18.json", function(data18){
-		createChart(data18, ".chart2-hist10", "chart2-group10", ".chart2-group10", "chart2-groupGold10", ".chart2-groupGold10", "chart2-groupSilver10", ".chart2-groupSilver10", "chart2-groupBronze10", ".chart2-groupBronze10", "2018", ".chart2-div10")
-	});
+	var data18 = d3.json("data/chart2/data18.json");
+	createChart(data18, ".chart2-hist10", "chart2-group10", ".chart2-group10", "chart2-groupGold10", ".chart2-groupGold10", "chart2-groupSilver10", ".chart2-groupSilver10", "chart2-groupBronze10", ".chart2-groupBronze10", "2018", ".chart2-div10");

@@ -7,6 +7,18 @@
 		margin: 40px 0;
 	}
 
+	.chart1-medal {
+		box-shadow: 1px 1px;
+		height: 15px;
+		width: 15px;
+		border-radius: 50%;
+		margin: 3px;
+		font-size: 0.7em;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 700;
+		text-align: center;
+	}
+
 	.chart1-span {
 		font-size: 0.9em;
 		font-weight: 700;
@@ -382,199 +394,203 @@
 	}
 
 /* CHART 6 */
-  .chart6 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
+	.chart6 {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
 
-  .chart6-container {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    flex-flow: row wrap;
-    align-items: flex-end;
-  }
+	.chart6-container {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+		flex-flow: row wrap;
+		align-items: flex-end;
+	}
 
-  .chart6-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 40px;
-  }
+	.chart6-div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
 
-  .chart6-div10 {margin-right: 0;}
+	.chart6-div10 { margin-right: 0; }
 
-  .chart6-hist {
-    margin: 0 0 0 5px;
-    padding: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
+	.chart6-hist {
+		margin: 0 0 0 5px;
+		padding: 0;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
 
-  .chart6-group {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0.15em;
-    align-items: center;
-    width: 10px;
-    background-color: blue;
-  }
+	.chart6-group {
+		display: flex;
+		flex-direction: column;
+		margin: 0 0.15em;
+		align-items: center;
+		width: 10px;
+		background-color: blue;
+	}
 
-  .chart6-block {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-bottom: 2px;
-    margin-left: 6px;
-    border: 1px solid;
-    box-shadow: 1px 1px;
-  }
+	.chart6-block {
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		margin-bottom: 2px;
+		margin-left: 6px;
+		border: 1px solid;
+		box-shadow: 1px 1px;
+		font-size: 0.7em;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 700;
+		text-align: center;
+	}
 
-  .chart6-count, .chart6-year, .chart6-total {
-    color: #3a3a3a;
-    font-family: "Open Sans", sans-serif;
-  }
+	.chart6-count, .chart6-year, .chart6-total {
+		color: #3a3a3a;
+		font-family: "Open Sans", sans-serif;
+	}
 
-  .chart6-count {
-    font-size: 0.8em;
-    font-weight: 400;
-    margin-bottom: 3px;
-    text-align: center;
-    margin-left: 0.15em;
-    display: none;
-  }
+	.chart6-count {
+		font-size: 0.8em;
+		font-weight: 400;
+		margin-bottom: 3px;
+		text-align: center;
+		margin-left: 0.15em;
+		display: none;
+	}
 
-  .chart6-total {
-  	font-size: 0.85em;
-    font-weight: 400;
-    margin-bottom: 5px;
-    text-align: center;
-    width: 30px;
-  }
+	.chart6-total {
+		font-size: 0.85em;
+		font-weight: 400;
+		margin-bottom: 5px;
+		text-align: center;
+		width: 30px;
+	}
 
-  .chart6-year {
-    text-align: center;
-    align-self: flex-end;
-    justify-content: center;
-    font-size: 0.8em;
-    margin-top: 0.2em;
-    margin-bottom: 0;
-    width: 37px;
-    padding-top: 0.3em;
-    border-top: 1px solid lightgrey;
-  }
+	.chart6-year {
+		text-align: center;
+		align-self: flex-end;
+		justify-content: center;
+		font-size: 0.8em;
+		margin-top: 0.2em;
+		margin-bottom: 0;
+		width: 37px;
+		padding-top: 0.3em;
+		border-top: 1px solid lightgrey;
+	}
 
-  .chart6-label {
-    font-family: "Open Sans";
-    font-size: 0.8em;
-    font-weight: 700;
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: -20px;
-  }
+	.chart6-label {
+		font-family: "Open Sans";
+		font-size: 0.8em;
+		font-weight: 700;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: -20px;
+	}
 
 /* CHART 7 */
 
-  .chart7-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    margin: 0 auto;
-  }
+	.chart7-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 500px;
+		margin: 0 auto;
+	}
 
-  .chart7-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 40px;
-  }
+	.chart7-row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 40px;
+	}
 
-  .chart7-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+	.chart7-group {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 
-  .chart7-block {
-    display: flex;
-    order: 2;
-  }
+	.chart7-block {
+		display: flex;
+		order: 2;
+	}
 
-  .chart7-label {
-    display: flex;
-    justify-content: flex-end;
-    order: 0;
-    width: 86px;
-    text-align: right;
-    margin: 0 1em 0 0;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8em;
-    color: #3a3a3a;
-  }
+	.chart7-label {
+		display: flex;
+		justify-content: flex-end;
+		order: 0;
+		width: 86px;
+		text-align: right;
+		margin: 0 1em 0 0;
+		font-family: "Open Sans", sans-serif;
+		font-size: 0.8em;
+		color: #3a3a3a;
+	}
 
-  .chart7-count {
-    margin-left: 0.5em;
-    order: 10;
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8em;
-    color: #3a3a3a;
-  }
+	.chart7-count {
+		margin-left: 0.5em;
+		order: 10;
+		font-family: "Open Sans", sans-serif;
+		font-size: 0.8em;
+		color: #3a3a3a;
+	}
 
-  .chart7-axisLabel {
-    height: 17px;
-    font-family: "Open Sans";
-    font-size: 0.8em;
-    font-weight: 700;
-    margin-top: -33px;
-    margin-right: -45px;
-  }
+	.chart7-axisLabel {
+		height: 17px;
+		font-family: "Open Sans";
+		font-size: 0.8em;
+		font-weight: 700;
+		margin-top: -33px;
+		margin-right: -45px;
+	}
 
-  .chart7-axis {
-    padding: 4px 0;
-    width: 40px !important;
-    height: 268px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-self: flex-start;
-    text-align: right;
-    margin-top: -6px;
-    border-right: 1px solid #3a3a3a;
-  }
+	.chart7-axis {
+		padding: 4px 0;
+		width: 40px !important;
+		height: 268px;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-self: flex-start;
+		text-align: right;
+		margin-top: -6px;
+		border-right: 1px solid #3a3a3a;
+	}
 
-  .chart7-axis > span {
-    font-family: "Open Sans", sans-serif;
-    font-size: 0.8em;
-    color: #3a3a3a;
-  }
+	.chart7-axis > span {
+		font-family: "Open Sans", sans-serif;
+		font-size: 0.8em;
+		color: #3a3a3a;
+	}
 
-  .chart7-gender {font-size: 1em;}
+	.chart7-gender { font-size: 1em; }
 
-  .chart7-women {fill: #FD8D3C;}
+	.chart7-women { fill: #FD8D3C; }
 
-  .chart7-men {fill: #FDD0A2;}
+	.chart7-men { fill: #FDD0A2; }
 
-  .chart7-mixed {fill: #FEE6CE;}
+	.chart7-mixed { fill: #FEE6CE; }
 
-  .chart7-span {
-    font-size: 0.9em;
-    font-weight: 700;
-    padding: 0 0.5em;
-    border-radius: 2px;
-  }
+	.chart7-span {
+		font-size: 0.9em;
+		font-weight: 700;
+		padding: 0 0.5em;
+		border-radius: 2px;
+	}
 
-  .span7-women {background-color: #FD8D3C;}
+	.span7-women { background-color: #FD8D3C; }
 
-  .span7-men {background-color: #FDD0A2;}
+	.span7-men { background-color: #FDD0A2; }
 
-  .span7-mixed {background-color: #FEE6CE;}
+	.span7-mixed { background-color: #FEE6CE; }
 
 
 
@@ -764,9 +780,4 @@
 	    .chart7-axis {width: 33px;}
 
 	    .chart7-axis > span {font-size: 0.7em;}
-
 	}
-
-
-
-
