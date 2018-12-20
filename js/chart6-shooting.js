@@ -112,7 +112,7 @@ var buildColumn = function(data, hist_number, group_number_div, group_number_nam
 	buildColumn(data14, ".chart6-hist9", ".chart6-group9", "chart6-group9", ".chart6-groupGold9", ".chart6-groupSilver9", ".chart6-groupBronze9", ".chart6-div9");
 
 // CHART 10
-	var dat18 = [
+	var data18 = [
 		{ name: "Abhishek Verma", medal: "Bronze" },
 		{ name: "Apurvi Chandela", medal: "Bronze" },
 		{ name: "Heena Sidhu", medal: "Bronze" },
