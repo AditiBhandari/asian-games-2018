@@ -3,7 +3,7 @@ var japan = [{"gold":1032,"silver":1036,"bronze":986,"total":3054}];
 var southKorea = [{"gold":746,"silver":660,"bronze":827,"total":2233}];
 var india = [{"gold":152,"silver":201,"bronze":312,"total":665}];
 
-var waffleChart = function(data, country_id, rank, country_name, ){
+var waffleChart = function(data, country_id, rank, country_name){
 	var gold = data.gold;
 	var silver = data.silver;
 	var bronze = data.bronze;
